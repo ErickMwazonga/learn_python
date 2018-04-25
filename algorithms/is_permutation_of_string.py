@@ -1,4 +1,5 @@
 '''
+Write a program that check whether one string is a permutation of another.
 One or more None inputs -> False
 One or more empty strings -> False
 'Nib', 'bin' -> False

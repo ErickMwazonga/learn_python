@@ -18,7 +18,7 @@ import at least two libraries: os and time. On a mac, you have access to
 the system TTS (Text-To-Speech) as follows: os.system('say ' + msg), where
 msg is the string to be spoken. (Under UNIX/Linux and Windows, something
 	similar might exist.) Apart from the text to be spoken, your procedure
-also needs to accept two additional parameters: a float indicating the 
+also needs to accept two additional parameters: a float indicating the
 length of the pause between each spoken ICAO word, and a float indicating
 the length of the pause between each word spoken."""
 
@@ -43,5 +43,5 @@ def icao(txt, icao_pause=1, word_pause=3):
 		time.sleep(word_pause) # The wait time after every word
 
 #test
-icao("Hello world, hi, I'm Nick!", 0.10, 1)
-icao("The quick brown Fox jumps over the laZy Dog!")
+# print(icao("Hello world, hi, I'm Nick!", 0.10, 1))
+print(icao("The quick brown Fox jumps over the laZy Dog!"))
